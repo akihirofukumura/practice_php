@@ -1,3 +1,3 @@
 # practice_php
 
-## PHP につて自主勉強するため
+## This repository is practice of PHP program.
