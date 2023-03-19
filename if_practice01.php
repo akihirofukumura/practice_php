@@ -20,6 +20,8 @@
     $age = $_POST['age'];
     if ($age > 0 && $age <=10) {
       echo "boy";
+    }elseif ($age > 10 && $age <= 20)  {
+      echo "young";
     }
   }
 ?>
