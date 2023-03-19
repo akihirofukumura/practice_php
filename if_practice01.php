@@ -25,8 +25,7 @@
     }elseif ($age > 20 && $age <= 25){
       echo "young-adult";
     }elseif ($age > 25 && $age <= 40) {
-      echo "young-adult";
-
+      echo "adult";
     }
   }
 ?>
