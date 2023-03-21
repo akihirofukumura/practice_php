@@ -17,3 +17,23 @@
   echo $total;
 ?>
 
+<br>
+
+<?php
+
+  $totals = 0;
+
+  for ($i=1; $i < 30; $i++) { 
+    if ($i % 2 == 0) {
+      if ($i != 28) {
+        echo "$i + ";
+      }else {
+        echo "$i = ";
+      }
+      $totals += $i;
+    }
+  }
+  echo "$totals";
+
+?>
+
